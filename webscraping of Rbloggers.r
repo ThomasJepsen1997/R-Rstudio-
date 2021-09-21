@@ -86,7 +86,7 @@ while (T) {
     html_text(trim = T)
   
   #removes the author name from the date
-  #date <- unlist(str_remove_all(date, "[|].+"))
+  
   date <- str_remove_all(date, "[|].+")
   
   # pull out and trim the exerpt names
